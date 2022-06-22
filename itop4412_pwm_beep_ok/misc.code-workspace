@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"miscdevice.h": "c",
+			"platform_device.h": "c",
+			"device.h": "c",
+			"uaccess.h": "c",
+			"cmath": "c",
+			"gpio.h": "c",
+			"cdev.h": "c",
+			"of_gpio.h": "c",
+			"of_address.h": "c",
+			"slab.h": "c",
+			"sched.h": "c",
+			"types.h": "c",
+			"stdio.h": "c",
+			"unistd.h": "c",
+			"gpio-cfg.h": "c",
+			"fs.h": "c",
+			"init.h": "c",
+			"module.h": "c",
+			"delay.h": "c",
+			"input.h": "c"
+		}
+	}
+}

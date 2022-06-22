@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/zcq/ARM_Linux_iTOP-4412/zcq_itop4412_POP1G_kernel-4.14.2/arch/arm/common/",
+                "/home/zcq/ARM_Linux_iTOP-4412/zcq_itop4412_POP1G_kernel-4.14.2/arch/arm/include/",
+                "/home/zcq/ARM_Linux_iTOP-4412/zcq_itop4412_POP1G_kernel-4.14.2/arch/arm/mach-exynos/include/",
+                "/home/zcq/ARM_Linux_iTOP-4412/zcq_itop4412_POP1G_kernel-4.14.2/arch/arm/plat-samsung/include/",
+                "/home/zcq/ARM_Linux_iTOP-4412/zcq_itop4412_POP1G_kernel-4.14.2/include/",
+                "/home/zcq/ARM_Linux_iTOP-4412/zcq_itop4412_POP1G_kernel-4.14.2/arch/arm/mach-s3c24xx/include/",
+
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

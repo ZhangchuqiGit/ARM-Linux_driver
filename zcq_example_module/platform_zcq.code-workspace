@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"gpio.h": "c",
+			"platform_device.h": "c",
+			"wait.h": "c",
+			"timer.h": "c",
+			"errno.h": "c"
+		}
+	}
+}

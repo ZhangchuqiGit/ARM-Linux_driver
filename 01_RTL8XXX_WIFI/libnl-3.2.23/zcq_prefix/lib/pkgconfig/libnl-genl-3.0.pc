@@ -1,0 +1,11 @@
+prefix=/home/zcq/ARM_kernel-5.3.18_driver_itop4412/01_RTL8XXX_WIFI/libnl-3.2.23/zcq_prefix
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libnl-genl
+Description: Generic Netlink Library
+Version: 3.2.23
+Requires: libnl-3.0
+Libs: -L${libdir} -lnl-genl-3
+Cflags: -I${includedir}/libnl3

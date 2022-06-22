@@ -1,0 +1,36 @@
+ 
+ 
+I: Bus=0018 Vendor=12fa Product=2143 Version=0100
+N: Name="ft5x0x_ts"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input0
+U: Uniq=
+H: Handlers=event0
+B: PROP=0
+B: EV=b
+B: KEY=400 0 0 0 0 0 0 0 0 0 0
+B: ABS=1000003
+
+I: Bus=0019 Vendor=0001 Product=0001 Version=0100
+N: Name="gpio-keys"
+P: Phys=gpio-keys/input0
+S: Sysfs=/devices/platform/gpio-keys/input/input1
+U: Uniq=
+H: Handlers=kbd event1
+B: PROP=0
+B: EV=3
+B: KEY=40000000 1010c0 0 0 0
+
+/sys/devices/platform/gpio-keys/input/input1/
+
+event设备目录：
+    /proc/bus/input/devices
+event设备信息：
+    cat /proc/bus/input/devices
+ 
+ I line：这行包含身份信息，显示了 bus type是 3 (usb)， vendor， product， version等信息。
+N line：这行包含了名字信息。
+P line：这行包含了物理设备信息。
+H line: 这行包含了与设备关联的 handler drivers。
+B line: 这些行包含了显示设备能力的一些位域 (bitfield)。
+

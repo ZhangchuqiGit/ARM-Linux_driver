@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#
+# 正点原子(alientek) RTL8189_WIFI Wireless LAN device configuration
+#
+
+config RTL8189FS
+	tristate "Realtek RTL8189FS SDIO WiFi"
+	depends on USB
+	---help---
+	  Help message of RTL8189FS (alientek)
+
+

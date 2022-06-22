@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"prettier.tabWidth": 4,
+		"prettier.bracketSpacing": false,
+		"prettier.useTabs": true
+	}
+}

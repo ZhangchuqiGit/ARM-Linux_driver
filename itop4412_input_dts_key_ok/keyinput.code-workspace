@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"map.h": "c",
+			"delay.h": "c",
+			"device.h": "c",
+			"interrupt.h": "c",
+			"module.h": "c",
+			"timer.h": "c",
+			"semaphore.h": "c",
+			"uaccess.h": "c",
+			"gpio.h": "c",
+			"input.h": "c"
+		}
+	}
+}

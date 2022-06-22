@@ -1,0 +1,22 @@
+tinyalsa: a small library to interface with ALSA in the Linux kernel
+
+The aims are:
+
+- Provide a basic pcm and mixer API
+- If it's not absolutely needed, don't add it to the API
+- Avoid supporting complex and unnecessary operations that could be
+  dealt with at a higher level
+
+tinyalsa 是 Google 在 Android 4.0 之后推的基于 alsa 内核的用户层音频接口。tinyalsa
+提供的头文件是"asoundlib.h"，提供最基础的 pcm 和 mixer 操作。
+tinyalsa 的实现文件为 pcm.c（实现 pcm api）和 mixer.c（实现 mixer api）。在其中
+有四个小工具它们分别是：
+tinypcminfo：tinypcminfo.c，查看 pcm 设备能力；
+tinyplay：tinyplay.c，使用 pcm 设备播放 wav 格式的音频文件；
+tinycap：tinycap.c，使用 pcm 设备采集 pcm 格式的码流，并保存为 wav 格式的文
+件；
+tinymix：tinymix.c，对 pcm 设备的控制，包括音量调节、设备切换。
+这四个工具使用时可以先使用 tinypcminfo 查看 pcm 设备的能力，以防我们使用其他三
+个命令时使用了不合理的配置会出现 parameter invalid 的错误。
+本文档适用于最小 Linux 系统以及 Qt 系统。
+
